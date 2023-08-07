@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "beritas",
+  "info": {
+    "singularName": "berita",
+    "pluralName": "beritas",
+    "displayName": "nama buku",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "buku": {
+      "type": "string"
+    },
+    "isi": {
+      "type": "text"
+    },
+    "images": {
+      "type": "text"
+    }
+  }
+}
